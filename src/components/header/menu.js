@@ -2,9 +2,9 @@ import React from "react"
 
 function Menu() {
   return (
-    <div>
-      <button>Home</button>
-      <button>
+    <div className='header-menu'>
+      <button type='button'>Home</button>
+      <button type='button'>
         Categories{" "}
         <svg
           width='12'
@@ -23,8 +23,8 @@ function Menu() {
           />
         </svg>
       </button>
-      <button>My Collections</button>
-      <button>Blog</button>
+      <button type='button'>My Collections</button>
+      <button type='button'>Blog</button>
     </div>
   )
 }

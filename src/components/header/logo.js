@@ -24,7 +24,7 @@ function Logo() {
           fill='white'
         />
       </svg>
-      <span>antools.</span>
+      <span className="logo-txt">antools.</span>
     </div>
   )
 }
