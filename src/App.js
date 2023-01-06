@@ -1,9 +1,9 @@
-import "./App.css"
+import "./App.scss"
 import Header from './components/header'
 
 function App() {
   return (
-    <div>
+    <div className="underbody">
       <Header />
       <main className='App'>main</main>
       <footer>footer</footer>
