@@ -1,7 +1,7 @@
 import React from "react"
-import Illustration from "./screen1/illustration"
-import Medsos from "./screen1/medsos"
-import Search from "./screen1/search"
+import Illustration from "./illustration"
+import Medsos from "./medsos"
+import Search from "./search"
 
 function Screen1() {
   return (
