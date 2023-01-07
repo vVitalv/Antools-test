@@ -1,13 +1,13 @@
 import "./App.scss"
 import Header from "./components/header"
-import Search from "./components/search"
+import Screen1 from "./components/screen1"
 
 function App() {
   return (
     <div className='App'>
       <Header />
       <main>
-        <Search />
+        <Screen1 />
       </main>
       <footer>footer</footer>
     </div>
