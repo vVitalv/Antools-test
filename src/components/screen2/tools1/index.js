@@ -6,7 +6,7 @@ function Tools1() {
     <div className='tools1'>
       <div className='tool'>
         <div className='tool-in'>
-          <div>
+          <div className='tool-in1'>
             <svg
               width='64'
               height='64'
@@ -45,10 +45,12 @@ function Tools1() {
                 />
               </g>
             </svg>
-            <p>FIGMA</p>
-            <p>Free</p>
+            <div className="tool-in1-txt">
+              <p className="tool-in1-txt1">FIGMA</p>
+              <p className="tool-in1-txt2">Free</p>
+            </div>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="tool-in2-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <Control />
         </div>
       </div>

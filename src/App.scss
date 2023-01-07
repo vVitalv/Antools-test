@@ -204,23 +204,69 @@ main {
     .tools1 {
       height: 314px;
       width: 1224px;
-      background-color: #ff6e30;
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
       .tool {
-        background-color: #fdf5ff;
         height: 294px;
         width: 392px;
         .tool-in {
           position: relative;
           display: flex;
           flex-direction: column;
+          justify-content: space-between;
           box-sizing: border-box;
           height: 100%;
           width: 100%;
           padding: 33px;
-          background-color: #a60cff;
+          .tool-in1 {
+            height: 66px;
+            display: flex;
+            align-items: center;
+            .tool-in1-txt {
+              padding-left: 30px;
+              .tool-in1-txt1 {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 12px;
+                color: rgba(255, 255, 255, 0.78);
+              }
+              .tool-in1-txt2 {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 16px;
+                color: rgba(255, 165, 55, 0.55);
+              }
+            }
+          }
+          .tool-in2-txt {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: rgba(255, 255, 255, 0.55);
+          }
+          .tool-control {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .tool-control-svg {
+              height: 42px;
+              width: 96px;
+              display: flex;
+              justify-content: space-between;
+            }
+            .tool-control-btn {
+              height: 42px;
+              width: 106px;
+              background-color: inherit;
+              border-style: none;
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 24px;
+              color: rgba(255, 255, 255, 0.55);
+            }
+          }
         }
       }
     }
