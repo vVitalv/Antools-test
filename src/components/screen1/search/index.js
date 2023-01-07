@@ -1,4 +1,5 @@
 import React from "react"
+import Medsos from "../medsos"
 import Input from "./input"
 
 function Search() {
@@ -13,6 +14,7 @@ function Search() {
       </p>
       <br />
       <Input />
+      <Medsos />
     </div>
   )
 }
