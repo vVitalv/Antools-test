@@ -3,7 +3,7 @@ import React from "react"
 function Left() {
   return (
     <div className='newcomer-left'>
-      <p className='newcomer-left-txt1'>Newcomer Tools</p>
+      <h1 className='newcomer-left-txt1'>Newcomer Tools</h1>
       <p className='newcomer-left-txt2'>
         Wow! see the latest update of the most
         <br />

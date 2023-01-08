@@ -6,9 +6,11 @@ import Regist from "./regist"
 function Header() {
   return (
     <header>
-      <Logo />
-      <Menu />
-      <Regist />
+      <div className='header-width'>
+        <Logo />
+        <Menu />
+        <Regist />
+      </div>
     </header>
   )
 }

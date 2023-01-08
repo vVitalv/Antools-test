@@ -6,7 +6,7 @@ function Screen2() {
   return (
     <div className='screen2'>
       <div className="tools-txt">
-        <p className='tools-txt1'>Most Popular Tools</p>
+        <h1 className='tools-txt1'>Most Popular Tools</h1>
         <p className='tools-txt2'>
           Tools for the best Designers and Developers
           <br />

@@ -5,10 +5,10 @@ import Input from "./input"
 function Search() {
   return (
     <div className='search'>
-      <p className='p1'>
+      <h1 className="search-h1">
         Awesome tools for Designer & Developer<span>.</span>
-      </p>
-      <p className='p2'>
+      </h1>
+      <p className="search-txt">
         Antool is a web collection of information on paid or <br />
         free Design and Development tools
       </p>
