@@ -124,7 +124,7 @@ main {
         justify-content: space-between;
         align-items: center;
         background: linear-gradient(#283036, #283036) padding-box,
-          linear-gradient(to right, #FFFFFF1A, #ffffff00) border-box;
+          linear-gradient(to right, #ffffff1a, #ffffff00) border-box;
         border: 1.5px solid transparent;
         .search-svg {
           margin-left: 18px;
@@ -152,7 +152,7 @@ main {
           font-size: 16px;
           line-height: 24px;
           color: #ffffff;
-          transition: background-color 0.4s;
+          transition: background-color 0.3s;
           &:hover {
             background-color: #ce4d16;
           }
@@ -368,13 +368,188 @@ main {
       width: 1059px;
       justify-content: space-between;
       align-items: center;
+      & > svg:hover path {
+        transition: fill 0.3s;
+        fill: #ff8c5a;
+      }
     }
   }
+
   .screen4 {
     margin-top: 200px;
     width: 1224px;
     height: 638px;
     display: flex;
     justify-content: space-between;
+    .newcomer-left {
+      .newcomer-left-txt1 {
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 50%;
+        color: rgba(255, 255, 255, 0.9);
+      }
+      .newcomer-left-txt2 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.55);
+      }
+      .newcomer-left-btn {
+        width: 198px;
+        height: 58px;
+        background-color: #ff6e30;
+        border-style: hidden;
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 40px;
+        color: #ffffff;
+        transition: background-color 0.3s;
+        &:hover {
+          background-color: #ce4d16;
+        }
+      }
+    }
+    .newcomer-right {
+      width: 600px;
+      height: 638px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-end;
+      .newtool {
+        width: 288px;
+        height: 284px;
+        border-radius: 15px;
+        transition: all 0.3s;
+        &:hover {
+          transform: translate(0, -20px);
+          background-color: rgba(40, 48, 54, 0.6);
+          backdrop-filter: blur(25px);
+          .newtool-in {
+            .newtool-in1 {
+              .newtool-in1-txt {
+                .newtool-in1-txt1 {
+                  color: rgba(255, 255, 255, 0.9);
+                }
+                .newtool-in1-txt2 {
+                  color: #ffa537;
+                }
+              }
+            }
+            .newtool-in2-txt {
+              color: rgba(255, 255, 255, 0.78);
+            }
+            .tool-control {
+              .tool-control-btns {
+                & > button {
+                  background-color: #283036;
+                  box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+                  & > svg path {
+                    fill-opacity: 55%;
+                  }
+                }
+              }
+              .tool-control-btn {
+                background-color: #283036;
+                box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+                background-color: #ff6e30;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+        .newtool-in {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          box-sizing: border-box;
+          height: 100%;
+          width: 100%;
+          padding: 28px 22px;
+          .newtool-in1 {
+            height: 66px;
+            display: flex;
+            align-items: center;
+            .newtool-in1-txt {
+              padding-left: 30px;
+              .newtool-in1-txt1 {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 12px;
+                color: rgba(255, 255, 255, 0.78);
+              }
+              .newtool-in1-txt2 {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 16px;
+                color: rgba(255, 165, 55, 0.55);
+              }
+            }
+          }
+          .newtool-in2-txt {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+            color: rgba(255, 255, 255, 0.55);
+          }
+          .tool-control {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .tool-control-btns {
+              height: 42px;
+              width: 96px;
+              display: flex;
+              justify-content: space-between;
+              & > button {
+                background-color: inherit;
+                border-style: hidden;
+                border-radius: 8px;
+                &:hover {
+                  .tool-control-svg1 path {
+                    transition: all 0.3s;
+                    fill-opacity: 100%;
+                    fill: #fd3b41;
+                  }
+                  .tool-control-svg2 path {
+                    transition: all 0.3s;
+                    fill-opacity: 100%;
+                    fill: #ff6e30;
+                  }
+                }
+              }
+            }
+            .tool-control-btn {
+              height: 42px;
+              width: 106px;
+              background-color: inherit;
+              border-style: hidden;
+              border-radius: 8px;
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 24px;
+              color: rgba(255, 255, 255, 0.55);
+              transition: all 0.3s;
+              &:hover {
+                background-color: #ce4d16;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .screen5 {
+    position: relative;
+    margin-top: 200px;
+    width: 1224px;
+    height: 600px;
+    background-image: url("./img/david-suarez.png");
+    background-repeat: no-repeat;
+    background-position: 197px 0;
   }
 }
